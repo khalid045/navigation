@@ -1,5 +1,5 @@
 .body{
-    height: 3000px;
+    height: 900px;
     border-top: 1px solid red;
     width: 1000px;
     margin-top: 120px;
@@ -10,7 +10,7 @@ body{
 }
 .nav{
     height: 1000px;
-    width: 15%;
+    width: 12%;
     position: fixed;
     display: inline-block;
     margin-top: 10px;

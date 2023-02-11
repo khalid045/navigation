@@ -1,0 +1,36 @@
+.content{
+    height: 700px;
+    width: 790px;
+    float: right;
+    border-left: 1px solid red;
+    border-bottom: 1px solid red; 
+ 
+}
+.one{
+    height: 200px;
+    width: 790px;
+    justify-content: center;
+    background-color: green;
+    margin-bottom: 18px;
+    margin-top: 10px;
+    
+}
+.two{
+    height: 200px;
+    width: 370px;
+    background-color: red;
+    margin: 0px;
+    display: inline-block;
+    margin-left: 23px;
+
+    
+}
+.three{
+    height: 200px;
+    width: 370px;
+    background-color: aqua;
+    margin: 0px;
+    float: left;
+    margin-right: 24px;
+    
+}
