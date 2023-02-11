@@ -1,0 +1,25 @@
+.sidebar{
+    height: 80px;
+    width: 1000px;
+    top: 0px;
+    position: fixed;
+    border-bottom: 1px solid white;
+    background-color: grey;
+    margin-top: 20px;
+    
+    
+}
+
+#search{
+    height: 30px;
+    width: 300px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    padding-left: 13px; 
+    background-color: transparent;
+    color: white;
+    
+}
