@@ -1,20 +1,43 @@
 .content{
-    height: 700px;
+    height: 900px;
     width: 790px;
     float: right;
     border-left: 1px solid red;
     border-bottom: 1px solid red; 
  
 }
+/*  this is all css for div class one       */
+
 .one{
     height: 200px;
     width: 790px;
     justify-content: center;
-    background-color: green;
     margin-bottom: 18px;
-    margin-top: 10px;
     
 }
+.oneImg{
+    height: 180px;
+    width: 180px;
+    margin: 5px;
+    display: inline-block;
+}
+.oneArticle{
+    height: 180px;
+    width: 570px;
+    float: right;
+    margin: 5px;
+
+}
+img{
+    height: 180px;
+    width: 180px;
+    justify-content: center;
+}
+
+
+
+/*  this is all css for div class two       */
+
 .two{
     height: 200px;
     width: 370px;
@@ -25,6 +48,8 @@
 
     
 }
+
+/*  this is all css for div class three       */
 .three{
     height: 200px;
     width: 370px;
