@@ -4,6 +4,7 @@
     float: right;
     border-left: 1px solid red;
     border-bottom: 1px solid red; 
+    padding-left: 10px;
  
 }
 /*  this is all css for div class one       */
@@ -41,7 +42,6 @@ img{
 .two{
     height: 200px;
     width: 370px;
-    background-color: red;
     margin: 0px;
     display: inline-block;
     margin-left: 23px;
@@ -53,7 +53,6 @@ img{
 .three{
     height: 200px;
     width: 370px;
-    background-color: aqua;
     margin: 0px;
     float: left;
     margin-right: 24px;

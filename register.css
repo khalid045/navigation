@@ -1,0 +1,34 @@
+.register{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+     
+}
+
+.form{
+    background-color: lightgray;
+    height: 700px;
+    width: 700px;
+    border-top-right-radius: 350px;
+    border-bottom-left-radius: 350px;
+    border: 2px solid rgb(23, 23, 21);
+    display: grid;
+    place-items: center;
+}
+.form form{
+
+    margin-bottom: 220px;
+}
+input{
+    margin: 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    height: 30px;
+    width: 300px;
+    letter-spacing: 1px;
+    word-spacing: 2pxs;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
