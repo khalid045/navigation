@@ -1,3 +1,4 @@
+
 .register{
     height: 100%;
     width: 100%;
@@ -5,14 +6,19 @@
     place-items: center;
      
 }
+form{
+    border: none;
+}
 
 .form{
+    position: relatives;
     background-color: lightgray;
     height: 700px;
     width: 700px;
+    max-width: 700px;
+    overflow: hidden;
     border-top-right-radius: 350px;
     border-bottom-left-radius: 350px;
-    border: 2px solid rgb(23, 23, 21);
     display: grid;
     place-items: center;
 }
@@ -32,3 +38,56 @@ input{
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+ 
+.form :hover{
+    border-color: aqua;
+    color: aqua;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+.form{
+    position: relative;
+    height: 52px;
+    width: 100%;
+    max-width: 150px;
+    color: white;
+    overflow: hidden;
+}
+.form input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    line-height: 52px;
+    outline: 0;
+    background-color: inherit;
+    padding-top: 25px;
+    border: none;
+    box-sizing: border-box;
+}
+.form .label-wrapper{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    pointer-events: none;
+    border-bottom: 1px solid white;
+}
+.form .label-wrapper::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+*/
